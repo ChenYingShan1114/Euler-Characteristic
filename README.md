@@ -76,6 +76,13 @@ routine. Starting in this directory, issue:
     cmake ..
     make 
 
+or
+
+    mkdir build
+    cd build
+    CMAKE_POLICY_VERSION_MINIMUM=3.5 cmake ..
+    make 
+
 Why don't you try this right now?
 
 ## Execution
